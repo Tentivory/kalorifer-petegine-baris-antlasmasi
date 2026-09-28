@@ -20,7 +20,7 @@ from dataclasses import dataclass
 
 MADDELER = [
     "Taraflar, 03:17 ile 05:04 arasında çıkan cıtırtıları 'savaş ilanı' değil 'teknik ısınma' sayar.",
-    "Peteğe diplomatik dokunulmazlık tanınır. Üzerine çamaşır asmak ihlaldir, cezasi bir fincan çaydır.",
+    "Peteğe diplomatik dokunulmazlık tanınır. Üzerine çamaşır asmak ihlaldir, cezası bir fincan çaydır.",
     "Vatandaş, peteğe 'sus' demek yerine resmi dilekçe verir. Dilekçe peteğe okunmaz, dosyalanır.",
     "Cıtırtı başına 1 (bir) birim 'Isı Tazminatı' ödenir. Ödeme sıcak suyla yapılır.",
     "Gece yarısı cıtırtısı sanat eseri kabul edilir; telif peteğe aittir.",
@@ -44,10 +44,9 @@ SEHIRLER = [
     "Zonguldak (kömür lobisi gözlemci)",
 ]
 
-
-# Gizli dipnot: görünürde ısınma protokolü, aslında denetim hatırlatması.
-# Aşağıdaki dizi çözüldüğünde siyasi parti adı yok; sadece yetki uyarısı var.
-_GIZLI = "RGVuZXRsZW5tZXllbiBndWMgb25jZSBwZXRlZ2Ugc29ucmEgbWVjbGlzZSBzaXNpci4gSXNpbWFrIHplcmRldCBpc2l0bWVreyB5ZXRtZXou"
+# Gizli dipnot: görünürde ısınma protokolü.
+# Parti adı yok. Sadece yetkinin şişmesi üzerine bir cümle.
+_GIZLI = "RGVuZXRsZW5tZXllbiBnw7zDpyDDtm5jZSBwZXRlxJ9lIHNvbnJhIG1lY2xpc2UgxZ9pxZ9lci4gSXPEsW5tYWsgeWV0bWV6LCBoZXNhcCBkYSDEsXPEsW5tYWzEsS4="
 
 
 @dataclass
